@@ -1,0 +1,165 @@
+/* 320-480 */
+@media (min-width: 320px) and (max-width: 480px){
+    .kulen .kulen-item{
+        width: 100%;
+    }
+    .head .head-menu,
+    .head .login{
+        display: none;
+    }
+    .head .close-button{
+        display: block;
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* main */
+    /*  KU CASINO LINK  */
+    .main .kubet-text{
+        font-size: 25px;
+    }
+    /* item-5_download  */
+    .main .down-img{
+        width: 220px;
+    }
+    /* Nguồn gốc */
+    .main .nguon-text{
+        font-size: 25px;
+    }
+    .main .nguon-img{
+        width: 100%;
+    }
+    /* item-6_Cập nhật thêm */
+    .main .cards{
+        --columns: 1;
+    }
+    .main .boxs {
+        --spacing: 20px;
+        --columns: 2;
+    }
+    .main .box-img{
+        width: 140px;
+        height: 140px;
+    }
+    /* footer */
+    .footers {
+        --columns: 1;
+    }
+    .footered .card-top{
+        margin-bottom: 10px;
+        padding: 0 25px;
+    }
+}
+
+/* 481-767 */
+@media (min-width: 481px) and (max-width: 767px){
+    .kulen .kulen-item{
+        width: 100%;
+    }
+    .head .head-menu,
+    .head .login{
+        display: none;
+    }
+    .head .close-button{
+        display: block;
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    /* main */
+    /*  KU CASINO LINK  */
+    .main .kubet-text{
+        font-size: 25px;
+    }
+    /* item-5_download  */
+    .main .down-img{
+        width: 220px;
+    }
+    /* Nguồn gốc */
+    .main .nguon-text{
+        font-size: 25px;
+    }
+    .main .nguon-img{
+        width: 100%;
+    }
+    /* item-6_Cập nhật thêm */
+    .main .cards{
+        --columns: 2;
+    }
+    .main .boxs {
+        --spacing: 20px;
+        --columns: 3;
+    }
+    .main .box-img{
+        width: 140px;
+        height: 140px;
+    }
+    /* footer */
+    .footers {
+        --columns: 2;
+    }
+    .footered .card-top{
+        margin-bottom: 10px;
+        padding: 0 25px;
+    }
+}
+
+/* 768-1025 */
+@media (min-width: 768px) and (max-width: 1025px){
+    .kulen .kulen-item{
+        width: 100%;
+    }
+    .head .head-menu,
+    .head .login{
+        display: none;
+    }
+    .head .close-button{
+        display: block;
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    /* main */
+    /*  KU CASINO LINK  */
+    .main .kubet-text{
+        font-size: 25px;
+    }
+    /* item-5_download  */
+    .main .down-img{
+        width: 220px;
+    }
+    /* Nguồn gốc */
+    .main .nguon-text{
+        font-size: 25px;
+    }
+    .main .nguon-img{
+        width: 100%;
+    }
+    /* item-6_Cập nhật thêm */
+    .main .cards{
+        --columns: 3;
+    }
+    .main .boxs {
+        --spacing: 20px;
+        --columns: 4;
+    }
+    .main .box-img{
+        width: 140px;
+        height: 140px;
+    }
+    /* footer */
+    .footers {
+        --columns: 4;
+    }
+    .footered .card-top{
+        margin-bottom: 10px;
+        padding: 0 25px;
+    }
+}
